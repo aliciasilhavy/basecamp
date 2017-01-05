@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>BaseCamp</title>
+
+	<meta name="robots" content="index, follow">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+	<script src="https://use.fontawesome.com/f19ebae6ca.js"></script>
+	<script src="scripts/jquery-3.1.1.min.js"></script>
+
+	<link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+	<nav class="row">
+		<div id="mobile">
+			<div id="menu-burger">
+				<div class="patty"></div>
+				<div class="patty"></div>
+				<div class="patty"></div>
+			</div>
+			<h1>Basecamp</h1>
+			<i id="search-icon" class="fa fa-search" aria-hidden="true"></i>
+			<div id="popup" class="hide">
+				<div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+				<br />
+				<ul id="menu-content">
+					<li class="firstLevel"><i class="fa fa-arrow-right" aria-hidden="true"></i> Home</li>
+					<br />
+					<div class="menuItem">
+						<li class="firstLevel"><i class="fa fa-arrow-down" aria-hidden="true" id="Favorites"></i> Favorites </li>
+						<li class="secondLevel Favorites hide"><i class="fa fa-angle-right" aria-hidden="true"></i> Colors</li>
+						<li class="secondLevel Favorites hide"><i class="fa fa-angle-right" aria-hidden="true"></i> Fonts</li>
+					</div>
+					<br />
+					<div class="menuItem">
+						<li class="firstLevel"><i class="fa fa-arrow-down" aria-hidden="true" id="Insperation"></i> Insperation</li>
+						<li class="secondLevel Insperation hide"><i class="fa fa-angle-right" aria-hidden="true"></i> Websites</li>
+						<li class="secondLevel Insperation hide"><i class="fa fa-angle-right" aria-hidden="true"></i> Logos/Icons</li>
+						<li class="secondLevel Insperation hide"><i class="fa fa-angle-right" aria-hidden="true"></i> Prints</li>
+					</div>
+					<br />
+					<div class="menuItem">
+						<li class="firstLevel"><i class="fa fa-arrow-down" aria-hidden="true" id="Resources"></i> Resources</li>
+						<li class="secondLevel Resources hide"><i class="fa fa-angle-right" aria-hidden="true"></i> Color</li>
+						<li class="secondLevel Resources hide"><i class="fa fa-angle-right" aria-hidden="true"></i> Photos</li>
+						<li class="secondLevel Resources hide"><i class="fa fa-angle-right" aria-hidden="true"></i> Downloads</li>
+					</div>
+				</ul>
+			</div>
+			<div id="searchwindow" class="hide">
+				<div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+				<br />
+				<div id="search-content">
+					<input type="text" class="search" value="Search..."></input>
+					<input type="submit" value=""><i class="fa fa-arrow-right go" aria-hidden="true"></i></input>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div id="content"></div>
+	<footer>
+		<i class="fa fa-home" aria-hidden="true"></i>
+		<i class="fa fa-heart" aria-hidden="true"></i>
+		<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+		<i class="fa fa-search" aria-hidden="true"></i>
+	</footer>
+	<script src="scripts/index.js"></script>
+</body>
+
+</html>
