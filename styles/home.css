@@ -1,0 +1,52 @@
+/* import fonts */
+@font-face {
+  font-family: "bold";
+  src: url("fonts/moon-bold.otf"); }
+@font-face {
+  font-family: "light";
+  src: url("fonts/moon-light.otf"); }
+/* standard variables */
+/* content styling */
+#content {
+  margin-top: 60px;
+  padding: 7.5px; }
+  #content .sectionTitle {
+    margin-bottom: 7.5px;
+    font-size: 1em;
+    font-family: "light", "Arial Black", Gadget, sans-serif; }
+  #content .sectionTitle .fa {
+    color: #1B1A1C; }
+  #content .sectionTitle h6 {
+    margin-left: 30px;
+    margin-top: -16.5px; }
+  #content .content-bar {
+    border-radius: 10px;
+    background-color: white;
+    padding: 7.5px;
+    height: 90px;
+    padding: 7.5px;
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.1);
+    box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.1);
+    font-family: "light", "Arial Black", Gadget, sans-serif;
+    margin-bottom: 15px;
+    width: 85%;
+    margin-left: 25px; }
+    #content .content-bar .bottom {
+      margin-bottom: 30px; }
+    #content .content-bar .title a {
+      float: right; }
+    #content .content-bar a {
+      color: #A4A8A8;
+      text-align: right; }
+    #content .content-bar .inline-flex {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow: scroll; }
+    #content .content-bar img {
+      height: 60px;
+      width: 60px;
+      padding-right: 7.5px;
+      margin-top: 7.5px; }
+
+/*# sourceMappingURL=home.css.map */
