@@ -10,15 +10,17 @@
 #content {
   margin-top: 60px;
   padding: 7.5px; }
+  #content .sectionTitle:not(.top) {
+    margin-top: 37.5px; }
   #content .sectionTitle {
     margin-bottom: 7.5px;
     font-size: 1em;
     font-family: "light", "Arial Black", Gadget, sans-serif; }
-  #content .sectionTitle .fa {
-    color: #1B1A1C; }
-  #content .sectionTitle h6 {
-    margin-left: 30px;
-    margin-top: -16.5px; }
+    #content .sectionTitle .fa {
+      color: #1B1A1C; }
+    #content .sectionTitle h6 {
+      margin-left: 30px;
+      margin-top: -16.5px; }
   #content .content-bar {
     border-radius: 10px;
     background-color: white;

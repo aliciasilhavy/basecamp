@@ -30,14 +30,15 @@ $thumbnail-height: 60px;
 /* content styling */
 
 #content {
+	.sectionTitle:not(.top) {
+		margin-top: $padding * 2.5;
+	}
 	margin-top: 60px;
 	padding: $padding / 2;
 	.sectionTitle {
 		margin-bottom: $padding / 2;
 		font-size: 1em;
 		font-family: $light;
-	}
-	.sectionTitle {
 		.fa {
 			color: $black;
 		}

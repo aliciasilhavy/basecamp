@@ -24,6 +24,8 @@ $("#search-icon").click(function () {
 	showAnimation("#searchwindow");
 });
 
+/* Checking search button */
+
 /* Animating menu dropdown */
 
 function showMenu(selector) {
