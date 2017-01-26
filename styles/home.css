@@ -9,7 +9,8 @@
 /* content styling */
 #content {
   margin-top: 60px;
-  padding: 7.5px; }
+  padding: 7.5px;
+  padding-bottom: 70px; }
   #content .sectionTitle:not(.top) {
     margin-top: 37.5px; }
   #content .sectionTitle {
@@ -50,5 +51,29 @@
       width: 60px;
       padding-right: 7.5px;
       margin-top: 7.5px; }
+
+@media (min-width: 425px) {
+  #content .content-bar {
+    width: 90%; } }
+@media (min-width: 700px) {
+  #content {
+    margin-top: 80px; }
+    #content .content-bar {
+      width: 94%;
+      padding: 15px;
+      height: 160px;
+      margin-bottom: 30px; }
+      #content .content-bar .title {
+        font-size: 1.3em; }
+      #content .content-bar img {
+        height: 120px;
+        width: 120px;
+        padding-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px; }
+    #content .sectionTitle {
+      font-size: 1.3em; }
+      #content .sectionTitle h6 {
+        margin-top: -22px; } }
 
 /*# sourceMappingURL=home.css.map */
