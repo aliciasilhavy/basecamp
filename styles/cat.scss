@@ -1,0 +1,91 @@
+/* import fonts */
+
+@font-face {
+	font-family: "bold";
+	src: url("fonts/moon-bold.otf");
+}
+@font-face {
+	font-family: "light";
+	src: url("fonts/moon-light.otf");
+}
+
+/* standard variables */
+
+$light-gray:#F7F7F7;
+$black: #1B1A1C;
+$green:#45C17D;
+$red:#ED4E4E;
+$overlay-red:rgba(237,
+78,
+78,
+0.5);
+$dark-gray: #A4A8A8;
+$bold: "bold",
+"Arial Black",
+Gadget,
+sans-serif;
+$light: "light",
+"Arial Black",
+Gadget,
+sans-serif;
+$padding: 15px;
+$thumbnail-height: 60px;
+body,
+html {
+	overflow-x: hidden;
+}
+.favorite {
+	background: linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/heart.jpg) bottom center fixed;
+}
+.inspo {
+	background: linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/inspo.jpg) bottom center fixed;
+}
+.resources {
+	background: linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/resources.jpg) bottom center fixed;
+}
+.header {
+	overflow-x: hidden;
+	font-family: $bold;
+	text-align: center;
+	text-align: center;
+	margin-left: -20px;
+	padding: $padding;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	width: 100vw;
+	h1 {
+		position: relative;
+		top: 70%;
+		transform: translateY(-70%);
+		color: white;
+	}
+}
+#content {
+	margin-top: $padding !IMPORTANT;
+	.content-bar {
+		margin-left: 0 !IMPORTANT;
+		width: 90vw !IMPORTANT;
+	}
+}
+@media (min-width: 425px) {
+	#content {
+		.content-bar {
+			width: 93vw !IMPORTANT;
+		}
+	}
+}
+@media (min-width: 700px) {
+	#content {
+		.content-bar {
+			width: 94vw !IMPORTANT;
+		}
+	}
+	.header {
+		height: 300px;
+		h1 {
+			top: 60%;
+			transform: translateY(-60%);
+		}
+	}
+}

@@ -1,0 +1,159 @@
+/* import fonts */
+
+@font-face {
+	font-family: "bold";
+	src: url("fonts/moon-bold.otf");
+}
+@font-face {
+	font-family: "light";
+	src: url("fonts/moon-light.otf");
+}
+
+/* standard variables */
+
+$light-gray:#F7F7F7;
+$black: #1B1A1C;
+$green:#45C17D;
+$red:#ED4E4E;
+$overlay-red:rgba(237,
+78,
+78,
+0.5);
+$dark-gray: #A4A8A8;
+$bold: "bold",
+"Arial Black",
+Gadget,
+sans-serif;
+$light: "light",
+"Arial Black",
+Gadget,
+sans-serif;
+$padding: 15px;
+$thumbnail-height: 60px;
+.header {
+	overflow-x: hidden;
+	font-family: $bold;
+	text-align: center;
+	text-align: center;
+	margin-left: -20px;
+	padding: $padding;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 200px;
+	width: 100vw;
+	h1 {
+		position: relative;
+		top: 70%;
+		transform: translateY(-70%);
+		color: white;
+	}
+}
+
+/* COLOR PAGE */
+
+$mint-green: #000000;
+.colors {
+	background: linear-gradient(rgba(237, 78, 78, 0.1), rgba(237, 78, 78, 0.1)), url(images/color.jpg) center left fixed;
+}
+.row {
+	text-align: center;
+}
+.block {
+	width: 125px;
+	height: 125px;
+}
+.item {
+	width: 125px;
+	margin-bottom: $padding;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+p {
+	display: block;
+	text-align: left;
+	font-family: $light;
+}
+.name {
+	margin-top: 5px;
+}
+.hex {
+	margin-top: -15px;
+}
+@media (min-width: 850px) {
+	.item {
+		margin-left: 20px;
+		margin-right: 20px;
+		width: 200px;
+	}
+	.block {
+		width: 200px !IMPORTANT;
+		height: 200px !IMPORTANT;
+	}
+}
+
+/* FONT PAGE */
+
+.fonts {
+	background: -webkit-linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/fonts.jpg) bottom center fixed;
+	background: -o-linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/fonts.jpg) bottom center fixed;
+	background: linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/fonts.jpg) bottom center fixed;
+}
+.font {
+	.a {
+		background: url(images/color.jpg);
+	}
+}
+
+/* LOGO PAGE */
+
+.logos {
+	background: -webkit-linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/logos.jpg) bottom center fixed;
+	background: -o-linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/logos.jpg) bottom center fixed;
+	background: linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/logos.jpg) bottom center fixed;
+}
+.logo {
+	.a {
+		background: url(images/color.jpg);
+	}
+}
+
+/* WEBSITES PAGE */
+
+.websites {
+	background: -webkit-linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/websites.jpg) center left fixed;
+	background: -o-linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/websites.jpg) center left fixed;
+	background: linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/websites.jpg) center left fixed;
+}
+.item img {
+	width: 100%;
+}
+
+/* PRINTS PAGE */
+
+.prints {
+	background: -webkit-linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/prints.jpg) center right fixed;
+	background: -o-linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/prints.jpg) center right fixed;
+	background: linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/prints.jpg) center right fixed;
+}
+
+/* COLOR RESOURCES PAGE */
+
+.colors-r {
+	background: -webkit-linear-gradient(rgba(237, 78, 78, 0.2), rgba(237, 78, 78, 0.2)), url(images/color-r.jpg) center center fixed;
+	background: -o-linear-gradient(rgba(237, 78, 78, 0.2), rgba(237, 78, 78, 0.2)), url(images/color-r.jpg) center center fixed;
+	background: linear-gradient(rgba(237, 78, 78, 0.2), rgba(237, 78, 78, 0.2)), url(images/color-r.jpg) center center fixed;
+}
+
+/* DOWNLOADS PAGE */
+
+.downloads {
+	background: -webkit-linear-gradient(rgba(237, 78, 78, 0.4), rgba(237, 78, 78, 0.4)), url(images/downloads.jpg) center center fixed;
+	background: -o-linear-gradient(rgba(237, 78, 78, 0.4), rgba(237, 78, 78, 0.4)), url(images/downloads.jpg) center center fixed;
+	background: linear-gradient(rgba(237, 78, 78, 0.4), rgba(237, 78, 78, 0.4)), url(images/downloads.jpg) center center fixed;
+}
+
+/* PHOTOS PAGE */
+
+.photos {
+	background: -webkit-linear-gradient(rgba(237, 78, 78, 0.4), rgba(237, 78, 78, 0.4)), url(images/photos.jpg) center center fixed;
+}

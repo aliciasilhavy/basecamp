@@ -94,11 +94,13 @@ nav {
   width: 100%;
   top: 0;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 7.5px;
   z-index: 999;
   margin-right: auto;
   margin-left: auto;
   text-align: center; }
+  nav #mobile {
+    margin-left: -10px; }
   nav .flex-container {
     width: 90vw;
     display: -webkit-flex;
@@ -204,9 +206,12 @@ footer {
   font-size: 30px;
   text-align: center;
   color: #1B1A1C; }
+  footer .active {
+    border-bottom: solid #ED4E4E 3px; }
   footer .fa {
     margin-left: 22.5px;
-    margin-right: 22.5px; }
+    margin-right: 22.5px;
+    padding-bottom: 3px; }
 
 @media (min-width: 425px) {
   footer .fa {

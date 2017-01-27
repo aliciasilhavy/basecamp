@@ -1,0 +1,58 @@
+/* import fonts */
+@font-face {
+  font-family: "bold";
+  src: url("fonts/moon-bold.otf"); }
+@font-face {
+  font-family: "light";
+  src: url("fonts/moon-light.otf"); }
+/* standard variables */
+body,
+html {
+  overflow-x: hidden; }
+
+.favorite {
+  background: linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/heart.jpg) bottom center fixed; }
+
+.inspo {
+  background: linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/inspo.jpg) bottom center fixed; }
+
+.resources {
+  background: linear-gradient(rgba(237, 78, 78, 0.5), rgba(237, 78, 78, 0.5)), url(images/resources.jpg) bottom center fixed; }
+
+.header {
+  overflow-x: hidden;
+  font-family: "bold", "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  text-align: center;
+  margin-left: -20px;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100vw; }
+  .header h1 {
+    position: relative;
+    top: 70%;
+    transform: translateY(-70%);
+    color: white; }
+
+#content {
+  margin-top: 15px !important; }
+  #content .content-bar {
+    margin-left: 0 !IMPORTANT;
+    width: 90vw !IMPORTANT; }
+
+@media (min-width: 425px) {
+  #content .content-bar {
+    width: 93vw !IMPORTANT; } }
+@media (min-width: 700px) {
+  #content .content-bar {
+    width: 94vw !IMPORTANT; }
+
+  .header {
+    height: 300px; }
+    .header h1 {
+      top: 60%;
+      transform: translateY(-60%); } }
+
+/*# sourceMappingURL=cat.css.map */

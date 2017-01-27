@@ -123,11 +123,14 @@
 				width: 100%;
 				top: 0;
 				padding-top: $padding;
-				padding-bottom: $padding;
+				padding-bottom: $padding / 2;
 				z-index: 999;
 				margin-right: auto;
 				margin-left: auto;
 				text-align: center;
+				#mobile {
+					margin-left: -10px;
+				}
 				.flex-container {
 					width: 90vw;
 					display: -webkit-flex;
@@ -249,9 +252,13 @@
 				font-size: 30px;
 				text-align: center;
 				color: $black;
+				.active {
+					border-bottom: solid $red 3px;
+				}
 				.fa {
 					margin-left: $padding * 1.5;
 					margin-right: $padding * 1.5;
+					padding-bottom: 3px;
 				}
 			}
 			@media (min-width: 425px) {
